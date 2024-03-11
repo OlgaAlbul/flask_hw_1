@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <h1 class="col-12 col-md-6 col-lg-4">Одежда</h1>
+        <div class="col-12 col-md-6 col-lg-4">
+            <ul>
+                <li>Костюм <img src="/static/image/suit.jpg" alt="suit"></li>
+                <li>Куртка <img src="/static/image/jacket.jpg" alt="jacket"></li>
+                <li>Брюки <img src="/static/image/trousers.jpg" alt="trousers"></li>
+                <li>Джинсы <img src="/static/image/jeans.jpg" alt="jeans"></li>
+                <li>Шорты <img src="/static/image/shorts.jpg" alt="shorts"></li>
+            </ul>
+        </div>        
+    </div>
+
+{% endblock %}
+
